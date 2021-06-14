@@ -1,0 +1,268 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Advance Search</title>
+
+    <style type="text/css">
+        body{
+          
+            margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+  
+    text-decoration: none;
+            
+        }
+        .header{
+            
+         
+        height: 60px;
+         box-sizing: border-box;
+        }
+
+        .header1{
+     box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    justify-content: flex-end;
+    vertical-align: middle;
+        }
+
+        .link1, .link2{ 
+    color:#000;
+    display: flex;
+    font-size: 13px;
+    line-height: 24px;
+    vertical-align: middle;
+    font-family: arial,sans-serif;
+    padding-right: 15px;
+    text-decoration: none;}
+
+
+           
+           .advance{
+            color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+           }
+
+           label{
+             cursor: default;
+           }
+           
+           .main{
+    
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px; 
+    font-weight: 500;
+    color: #333;
+    margin: 25px 35px;
+    vertical-align: middle;
+    padding: 1px 18px;
+           }
+
+           .main1{
+            height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+           }
+           .empty{
+            /* height: 30px; */
+    display: table-cell;
+    vertical-align: middle;
+           }
+.A{
+   width: 100%;
+   clear: both;
+    
+}
+.B{
+  
+    display: inline-block;
+    min-width: 167px;
+    /* width: 16%; */
+    /* height: 52px; */
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+    padding: 1px 18px;
+    margin: 2px 35px;
+}
+.C{
+  height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.D{
+  
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+    /* padding-left: 42px; */
+}
+.E{
+  padding-right: 16px;
+
+}
+.input-text{
+  font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 100%;
+}
+div{
+  margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+
+.last1-text{
+
+    background-color: #4d90fe;
+    color: white;
+    border: 1px solid #3079ed;
+    user-select: none;
+    line-height: 100%;
+    height: 30px;
+    min-width: 120px;
+    
+}
+input.final1{
+  padding: 0 12px;
+  float:right;
+  margin: 10px 0;
+}
+.final{
+  border-radius: 2px;
+  font-size: 11px;
+  
+  text-align: center;
+}
+</style>
+
+
+
+
+
+<body>
+  <div class="header">
+ <div class="header1">
+    <a href="GoogleSearch.html" class="link1">Google Search</a>
+    <a class="link2" href="imageSearch.html" class="link2">Images</a>
+   </div>
+   </div>
+ <div class="advance">
+<label style="padding:1px 18px;">Advanced Search</label>
+ </div>
+<div class="main">
+  <div class="main1">
+    <span>Find pages with...</span>
+  </div>
+</div>
+  <div class="empty"></div>
+
+<form action="https://www.google.com/search" method="GET">
+
+  <div class="A">
+   <div class="B">
+     <div class="C">
+      <label for="xX4UFf">all these words:</label><br>
+     </div>
+   </div> 
+   <div class="D">
+     <div class="E">
+       <input class ="input-text " type="text" name="as_q"/><br>
+     </div>
+   </div>
+
+
+
+   <div class="A">
+    <div class="B">
+      <div class="C">
+       <label for="xX4UFf">this exact word or phrase:</label><br>
+      </div>
+    </div> 
+    <div class="D">
+      <div class="E">
+        <input class ="input-text" type="text" name="as_epq"/><br>
+      </div>
+    </div>
+
+
+    <div class="A">
+      <div class="B">
+        <div class="C">
+         <label for="xX4UFf">any of these words:</label><br>
+        </div>
+      </div> 
+      <div class="D">
+        <div class="E">
+          <input class ="input-text" type="text" name="as_oq"/><br>
+        </div>
+      </div>
+
+
+      <div class="A">
+        <div class="B">
+          <div class="C">
+           <label for="xX4UFf">none of these words:</label><br>
+          </div>
+        </div> 
+        <div class="D">
+          <div class="E">
+            <input class ="input-text" type="text" name="as_eq"/><br>
+          </div>
+        </div>
+   
+        
+
+       <div class="A">
+        <div class="B">
+          <div class="C">
+           <label for="xX4UFf"></label><br>
+          </div>
+        </div> 
+        <div class="D">
+          
+            <input  type=" hidden" style="border:none"/>
+            <input type="submit" value="Advance Search" class="last1-text final final1"  style="line-height: 100%; height: 30px; min-width: 120px;"/>
+
+          </div>
+        </div>
+  
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+  

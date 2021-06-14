@@ -1,0 +1,199 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Search</title>
+    <style>
+        
+        body{
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+      .superman {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    padding: 0;
+      }
+
+      .header {
+       
+        
+        height: 60px;
+        
+      box-sizing: border-box;
+}
+.header1{
+    
+    box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    /* padding: 0 4px; */
+    
+    justify-content: flex-end;
+    vertical-align: middle;
+   
+    align-items: center;
+
+    display: flex;
+    
+}
+.link1, .link2{
+  
+    display: flex;
+    font-size: 13px;
+    color: #000;
+    /* display: inline-block; */
+    line-height: 24px;
+    vertical-align: middle;
+    font-family: arial,sans-serif;
+    /* line-height: normal; */
+    padding-right: 15px;
+    text-decoration: none;
+
+    
+}
+        
+
+      .main {
+        
+        height: 80vh;
+        box-sizing: border-box;
+        padding: 20px;
+      }
+
+      .main1:hover{
+          padding: 2 0px;
+          background-color: #fff;
+          box-shadow: 0 2px 5px #ccc;
+      }
+
+      .main1 {
+        font-size: 16px;
+        display: flex;
+        /* padding: 5px 188px 0 16px; */
+        border-radius: 24px;
+        height: 34px;
+       max-width: 584px;
+       /* margin:  auto; */
+       border-style: none;
+       padding-top: 6px ;
+       position: relative;
+       border: 1px solid #ccc;
+       
+      
+      }
+      
+
+      .submit{
+          height: 70px;
+          padding-top: 18px;
+    top: 53px;
+      }
+      .main2, .main3{
+        height: 36px;
+    min-width: 54px;
+    text-align: center;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    position: relative;
+    box-sizing:border-box;
+   
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    text-align:center;
+    font-family: arial,sans-serif;
+    cursor: pointer;
+      }
+     center{
+         display: block;
+     }
+      
+      .google {
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 62px;
+        max-height: 290px;
+        height: calc(100% - 560px);
+        box-sizing: border-box;
+        align-items: center;
+        flex-shrink: 0;
+        box-sizing: border-box;
+      }
+      
+      .google1{ 
+        
+        max-height: 100%;
+        max-width: 100%;
+        height: 92px;
+        object-position: center bottom;
+        width: auto;
+        
+        display: flex;
+        
+      }
+      img{
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;     
+         }
+      
+     
+    </style>
+  </head>
+  <body>
+    <div class="supermain">
+      <div class="header">
+          <div class="header1">
+            <a class="link1" href="GoogleSearch.html">Google Search</a>
+         <a class="link1" href="advance.html">Advance</a>
+        <!-- <a class="link2" href="imageSearch.html">Images</a> -->
+          </div>
+      </div>
+      
+      <div class="google1">
+        <img src="https://purepng.com/public/uploads/large/purepng.com-google-logo-2015brandlogobrand-logoiconssymbolslogosgoogle-6815229372333mqrr.png">
+     </div>
+
+      <div>
+        <div class="main">
+        <form action="https://google.com/images" method="GET">
+          <center>
+            <input type="text" name="q" class="main1" size="50" />
+        </center>
+            <div class="submit">
+        <center>
+            <input type="submit" value="Google search" class="main2"/>
+           
+        </center>
+        </div>
+          </div>
+        </form>
+      </div>
+     
+    </div>
+    <div class="google"></div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
